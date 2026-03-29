@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>vow</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://vow0328.github.io/</id>
+  <link href="https://vow0328.github.io/" rel="alternate"/>
+  <link href="https://vow0328.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, vow</rights>
+  <subtitle>嵌入式 | Linux | 机器人 | 生活</subtitle>
+  <title>微光拾级</title>
+  <updated>2026-03-29T12:38:05.118Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.03.23 — 2026.03.29 ｜ 实习第四周</p></blockquote><hr><h2><span id="关于工作">💼 关于工作</span></h2><p>一转眼就过去了三周，生活用品基本购置完备，实习生活也逐渐习以为常。</p><p>自我安慰地说：虽然是 996，但压力不大，不算忙碌。公司给报销 Token，基本不怎么需要亲自动手敲代码，轻松完成工作。</p><p><strong>但是——</strong></p><p>前几任留下的<strong>屎山是真的屎</strong>。</p><p>每天都能发现新的屎，一个 BMS 也没多少功能，我感觉啥都没实现，项目直接重构了一半，真是难绷。</p><blockquote><p>不得不感慨，前两年的就业环境是真好啊，什么垃圾都能进公司给我塞屎。</p></blockquote><hr><h2><span id="关于学习">📚 关于学习</span></h2><p>这周开始抽出不少时间学习硬性知识，对<strong>嵌入式的认识</strong>又更近了一步。</p><p>准备在<strong>清明前</strong>出 <strong>《电控学习路线 v1.1》</strong>。</p><hr><h2><span id="关于生活">🍔 关于生活</span></h2><p>虽然杭州这边物价比郑州高多了，但我的神奇妙妙工具依旧发力——</p><p>洗澡的时候感觉<strong>肚子又大了一圈</strong>。</p><p>该考虑减肥了。</p><hr><h2><span id="碎碎念">💭 碎碎念</span></h2><p>到了仅有的周末，不知道做什么，躺床上刷了一天手机。</p><blockquote><p>哎哎，VOW 你怎么这么堕落了…</p></blockquote><hr><p><strong>✨ 第四周：屎山依旧，肚子更大，周末更废。</strong></p><span id="more"></span><h2><span id="本周数据">📊 本周数据</span></h2><table><thead><tr><th>项目</th><th>数据</th></tr></thead><tbody><tr><td>发现的新屎</td><td>∞ 个</td></tr><tr><td>重构进度</td><td>50%</td></tr><tr><td>肚子大小</td><td>↑</td></tr><tr><td>周末生产力</td><td>0%</td></tr><tr><td>学习进度</td><td>《电控学习路线 v1.1》筹备中</td></tr></tbody></table><hr><h2><span id="下周目标">🎯 下周目标</span></h2><ul><li><input disabled type="checkbox"> 继续铲屎（重构项目）</li><li><input disabled type="checkbox"> 完成《电控学习路线 v1.1》</li><li><input disabled type="checkbox"> 考虑减肥方案（认真的吗？）</li><li><input disabled type="checkbox"> 周末别再刷手机了（大概率做不到）</li></ul><hr><p><strong>💡 一句话总结：</strong> 工作在铲屎，学习在进步，身材在膨胀，周末在摆烂。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/03/29/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-04/</id>
+    <link href="https://vow0328.github.io/2026/03/29/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-04/"/>
+    <published>2026-03-29T12:12:59.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.03.23 — 2026.03.29 ｜ 实习第四周</p>
+</blockquote>
+<hr>
+<h2 id="💼-关于工作"><a href="#💼-关于工作" class="headerlink" title="💼 关于工作"></a>💼 关于工作</h2><p>一转眼就过去了三周，生活用品基本购置完备，实习生活也逐渐习以为常。</p>
+<p>自我安慰地说：虽然是 996，但压力不大，不算忙碌。公司给报销 Token，基本不怎么需要亲自动手敲代码，轻松完成工作。</p>
+<p><strong>但是——</strong></p>
+<p>前几任留下的<strong>屎山是真的屎</strong>。</p>
+<p>每天都能发现新的屎，一个 BMS 也没多少功能，我感觉啥都没实现，项目直接重构了一半，真是难绷。</p>
+<blockquote>
+<p>不得不感慨，前两年的就业环境是真好啊，什么垃圾都能进公司给我塞屎。</p>
+</blockquote>
+<hr>
+<h2 id="📚-关于学习"><a href="#📚-关于学习" class="headerlink" title="📚 关于学习"></a>📚 关于学习</h2><p>这周开始抽出不少时间学习硬性知识，对<strong>嵌入式的认识</strong>又更近了一步。</p>
+<p>准备在<strong>清明前</strong>出 <strong>《电控学习路线 v1.1》</strong>。</p>
+<hr>
+<h2 id="🍔-关于生活"><a href="#🍔-关于生活" class="headerlink" title="🍔 关于生活"></a>🍔 关于生活</h2><p>虽然杭州这边物价比郑州高多了，但我的神奇妙妙工具依旧发力——</p>
+<p>洗澡的时候感觉<strong>肚子又大了一圈</strong>。</p>
+<p>该考虑减肥了。</p>
+<hr>
+<h2 id="💭-碎碎念"><a href="#💭-碎碎念" class="headerlink" title="💭 碎碎念"></a>💭 碎碎念</h2><p>到了仅有的周末，不知道做什么，躺床上刷了一天手机。</p>
+<blockquote>
+<p>哎哎，VOW 你怎么这么堕落了…</p>
+</blockquote>
+<hr>
+<p><strong>✨ 第四周：屎山依旧，肚子更大，周末更废。</strong></p>]]>
+    </summary>
+    <title>微光拾级-04</title>
+    <updated>2026-03-29T12:38:05.118Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<p>🕐 2026.03.16 — 2026.03.21 ｜ 实习第二周</p><hr><h2><span id="关于工作">💼 关于工作</span></h2><p>目前已经实习两周，整体工作强度还算中等。</p><p>但有个让人头疼的问题——<strong>前任留下的代码，几乎每一处逻辑都有问题</strong>。</p><p>看着那些屎山代码，真想直接推翻重构。但毕竟是实习生，这种大刀阔斧的事情做不了（转正再说吧）。</p><blockquote><p>实习生能做到什么程度呢？我也不知道。</p></blockquote><p>不过突然意识到，自己好像也<strong>忘记提升技能</strong>了——怠惰了。</p><hr><h2><span id="关于生活">🚴 关于生活</span></h2><p>这周补充了不少生活用品，把小窝逐渐填满。</p><p>最骚的操作是：在闲鱼上 <strong>150 块淘了一辆二手山地车</strong>，唯一的代价是——自提。</p><p>于是我从卖家那里，<strong>怒骑 12 公里</strong>回到公寓。</p><blockquote><p>一周的运动量，提前达成 ✅</p></blockquote><hr><h2><span id="碎碎念">💭 碎碎念</span></h2><p>工作上遇到屎山代码，生活上骑车穿越半个城市。</p><p>都是需要”忍耐”和”体力”的事。</p><p>但至少，<strong>车是自己的了</strong>。</p><hr><p>✨ 第二周：适应期结束，开始面对真实的战场。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/03/22/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-03/</id>
+    <link href="https://vow0328.github.io/2026/03/22/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-03/"/>
+    <published>2026-03-22T10:54:26.000Z</published>
+    <summary>
+      <![CDATA[<p>🕐 2026.03.16 — 2026.03.21 ｜ 实习第二周</p>
+<hr>
+<h2><span id="关于工作">💼 关于工作</span></h2><p>目前已经实习两周，整体工作强度还算中等。</p>
+<p>但有个让人头疼的问题——<strong>前任留]]>
+    </summary>
+    <title>微光拾级-03</title>
+    <updated>2026-03-22T11:26:01.801Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<p>🕐 2026.03.11 — 2026.03.14 ｜ 实习第一周</p><hr><h2><span id="关于租房">🏠 关于租房</span></h2><p>入职前两天线下看房找房，真的把自己累得不轻。</p><p>跑了好几个地方，最后机缘巧合在闲鱼上刷到一个帖子——一个中介自己住的房子在找合租室友。说实话，刚开始真以为是中介冒充房东的老套路，反复确认之后才发现，是一群做中介的年轻人合租在一起，刚好空出来一间。</p><blockquote><p><strong>750&#x2F;月</strong>，房间不大，但够住，性价比还算可以。</p></blockquote><p>算是在兵荒马乱里，落了个脚。</p><hr><h2><span id="关于工作">💼 关于工作</span></h2><p>目前还算轻松，节奏比想象中舒服不少。</p><p>公司很喜欢用 <strong>Claude Code</strong> 干活——经常就是敲完指令，两手一摊，好不悠闲。研发部和总部不在一起办公，平常管理也不算严苛，没什么条条框框的束缚感。</p><p>前辈们都很年轻，沟通起来没有距离感，这一点挺好的。</p><p>虽然是 <strong>996</strong>，但目前的工作强度还在舒适区内。</p><hr><h2><span id="碎碎念">💭 碎碎念</span></h2><blockquote><p>实习第一周，忙碌但新鲜。<br>希望这份工作的悠闲，能一直持续到我离职那天吧。</p></blockquote><hr><p>✨ 新城市、新住处、新工作——一切都在慢慢步入正轨。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/03/15/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-02/</id>
+    <link href="https://vow0328.github.io/2026/03/15/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-02/"/>
+    <published>2026-03-15T10:18:25.000Z</published>
+    <summary>
+      <![CDATA[<p>🕐 2026.03.11 — 2026.03.14 ｜ 实习第一周</p>
+<hr>
+<h2><span id="关于租房">🏠 关于租房</span></h2><p>入职前两天线下看房找房，真的把自己累得不轻。</p>
+<p>跑了好几个地方，最后机缘巧合在闲鱼上刷到一]]>
+    </summary>
+    <title>微光拾级-02</title>
+    <updated>2026-03-22T11:25:47.125Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<hr><p>因为明天充满了太多未知，而那些未知远远超过我曾经经历过的一切。</p><p>忙碌了一周，终于偷得半日空闲，匆匆从零开始搭起这个博客。只是想给未来的自己留下一些可供回想的片段，让那些记忆，不被流星带走。</p><span id="more"></span><hr><p>这段时间为了找实习，向很多哥哥们请教、求助。简历前前后后修改了整整十版（哎哎）。投出了大概一百二十份简历之后，终于收到了第一份 offer。那一刻其实没有想象中的狂喜，更多的是一种松了一口气的疲惫感。</p><p>如今再回头看，只觉得现在找工作真的不太容易。</p><p>明天就要去杭州了。<br>这是我第一次一个人离开郑州，在一座完全陌生的城市生活。</p><p>比起激动，不安似乎在胸腔里占据了更多的位置。<br>未知，距离，孤独，未来，好像都在这一刻一起涌了上来。</p><p>但无论如何——</p><p><strong>明天见。</strong></p><hr>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/03/08/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-01/</id>
+    <link href="https://vow0328.github.io/2026/03/08/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-01/"/>
+    <published>2026-03-08T12:29:32.000Z</published>
+    <summary>
+      <![CDATA[<hr>
+<p>因为明天充满了太多未知，而那些未知远远超过我曾经经历过的一切。</p>
+<p>忙碌了一周，终于偷得半日空闲，匆匆从零开始搭起这个博客。只是想给未来的自己留下一些可供回想的片段，让那些记忆，不被流星带走。</p>]]>
+    </summary>
+    <title>微光拾级-01</title>
+    <updated>2026-03-22T11:24:24.795Z</updated>
+  </entry>
+</feed>
