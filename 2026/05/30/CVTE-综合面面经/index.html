@@ -1,0 +1,815 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>CVTE-综合面面经 | 微光拾级</title><meta name="author" content="vow"><meta name="copyright" content="vow"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="📌 CVTE 综合面记录岗位方向：嵌入式开发相关  这轮面试比起技术面，明显更偏向“了解你这个人”。 没有继续深挖底层细节，也没有继续高强度拷打八股，更多是在顺着我当前的实习经历往下聊，想看我怎么看待问题、怎么处理压力、怎么使用 AI，以及对未来工作的想法到底成不成熟。 说白了，这场面试给我的感觉就是：  技术已经大概看过一轮了，这一轮是在判断你这个人到底好不好用。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CVTE-综合面面经">
+<meta property="og:url" content="https://vow0328.github.io/2026/05/30/CVTE-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/index.html">
+<meta property="og:site_name" content="微光拾级">
+<meta property="og:description" content="📌 CVTE 综合面记录岗位方向：嵌入式开发相关  这轮面试比起技术面，明显更偏向“了解你这个人”。 没有继续深挖底层细节，也没有继续高强度拷打八股，更多是在顺着我当前的实习经历往下聊，想看我怎么看待问题、怎么处理压力、怎么使用 AI，以及对未来工作的想法到底成不成熟。 说白了，这场面试给我的感觉就是：  技术已经大概看过一轮了，这一轮是在判断你这个人到底好不好用。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://vow0328.github.io/image/vow.jpg">
+<meta property="article:published_time" content="2026-05-30T02:45:28.000Z">
+<meta property="article:modified_time" content="2026-05-30T03:57:06.824Z">
+<meta property="article:author" content="vow">
+<meta property="article:tag" content="面经">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://vow0328.github.io/image/vow.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "CVTE-综合面面经",
+  "url": "https://vow0328.github.io/2026/05/30/CVTE-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/",
+  "image": "https://vow0328.github.io/image/vow.jpg",
+  "datePublished": "2026-05-30T02:45:28.000Z",
+  "dateModified": "2026-05-30T03:57:06.824Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "vow",
+      "url": "https://vow0328.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/image/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7.png"><link rel="canonical" href="https://vow0328.github.io/2026/05/30/CVTE-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.9/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'CVTE-综合面面经',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="微光拾级" type="application/atom+xml">
+<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/image/vow.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/ loading='lazy'></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">微光拾级</span></a><a class="nav-page-title" href="/"><span class="site-name">CVTE-综合面面经</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">CVTE-综合面面经</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-05-30T02:45:28.000Z" title="发表于 2026-05-30 10:45:28">2026-05-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-05-30T03:57:06.824Z" title="更新于 2026-05-30 11:57:06">2026-05-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%9D%A2%E7%BB%8F%E5%88%86%E4%BA%AB/">面经分享</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">4.5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>13分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><blockquote>
+<p>📌 CVTE 综合面记录<br>岗位方向：嵌入式开发相关</p>
+</blockquote>
+<p>这轮面试比起技术面，明显更偏向“了解你这个人”。</p>
+<p>没有继续深挖底层细节，也没有继续高强度拷打八股，更多是在顺着我当前的实习经历往下聊，想看我怎么看待问题、怎么处理压力、怎么使用 AI，以及对未来工作的想法到底成不成熟。</p>
+<p>说白了，这场面试给我的感觉就是：</p>
+<blockquote>
+<p><strong>技术已经大概看过一轮了，这一轮是在判断你这个人到底好不好用。</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<hr>
+<h2><span id="一-先从你现在在干嘛开始">一、先从“你现在在干嘛”开始</span></h2><p>面试一开始，先问了一个很日常的问题：现在在哪里，最近在做什么。</p>
+<p>我回答的是：现在在杭州，在杭州迈睿机器人实习，已经两个半月，快满三个月了。</p>
+<p>这一题表面上像寒暄，其实是整场面试的引子。因为只要你现在在实习，后面就一定会接着问：</p>
+<ul>
+<li>你现在具体做什么</li>
+<li>为什么还在继续找工作</li>
+<li>为什么不打算留在这家公司</li>
+</ul>
+<p>所以这类问题虽然简单，但本质上是在给后面铺路。</p>
+<hr>
+<h2><span id="二-为什么不想留在现在这家公司">二、为什么不想留在现在这家公司</span></h2><p>接下来的问题果然就转到了这一点：</p>
+<blockquote>
+<p>既然已经实习了两个半月，为什么不太想继续留在现在这家公司？</p>
+</blockquote>
+<p>我给出的回答比较直接，核心就是两点：</p>
+<ol>
+<li><strong>公司管理不太行</strong></li>
+<li><strong>几乎没有人带我</strong></li>
+</ol>
+<p>我们组一共六个人，其中三个是实习生，没有成体系的培养方案，也没有明确的导师机制。很多事情不是“让你跟着做、边做边学”，而是直接把一个项目甩给你，让你自己想办法顶上去。</p>
+<p>我现在负责的是一个 <strong>磷酸铁锂电池 BMS 开发</strong> 相关的项目，但在接手之前，我其实并没有真正做过这一类东西。公司给我的方式也很直接：把一套源码丢过来，让我自己看、自己改、自己排查、自己找资料，甚至很多时候还要自己去和厂商对接。</p>
+<p>我在这一段里也提到了一个比较敏感但真实的点：<br><strong>老板的管理方式里有明显的施压和 PUA 成分。</strong></p>
+<p>从面试官后面的反应来看，她对这个点是认真在听的，不是只把它当吐槽。她更像是在判断：你现在对公司的负面评价，到底是单纯情绪，还是基于真实经历形成的结论。</p>
+<hr>
+<h2><span id="三-所谓管理差到底差在哪">三、所谓“管理差”，到底差在哪</span></h2><p>面试官后面没有停在“你觉得管理不好”这个层面，而是继续追问：</p>
+<blockquote>
+<p>那你觉得它具体差在哪里？</p>
+</blockquote>
+<p>这个问题我觉得问得挺对的，因为很多人说一家公司不好，往往只能说到“感觉差”“氛围差”，但一旦继续追问，就说不出具体问题。</p>
+<p>我这边能展开讲，主要是因为这个感受确实很具体。</p>
+<p>首先，那套源码本身问题就不少。代码规模很大，几千行起步，而且很多部分都是用 AI 直接生成的，没有经过足够的人工审查，里面埋了很多 bug。</p>
+<p>其次，更让人头疼的是：<br><strong>没有人带着过项目。</strong></p>
+<p>没有人给我讲整体架构，没有人告诉我哪些模块是关键、哪些地方最容易出问题，也没有人帮我建立起对项目的基本理解。结果就是我只能自己一个人去硬啃代码、硬找 bug、硬把整个系统逻辑拼起来。</p>
+<p>我当时光是排查 bug 就花了整整三天。<br>三天之后，老板不是先看问题处理到什么程度，而是直接继续往下压新任务，同时不断催进度。</p>
+<p>所以如果要我总结那种难受感，它其实不是来自“事情很多”，而是来自：</p>
+<blockquote>
+<p><strong>你明知道整个流程本来就很乱，但所有压力最后都压在了最底下那个还在适应的人身上。</strong></p>
+</blockquote>
+<hr>
+<h2><span id="四-多个任务同时压下来时我怎么处理">四、多个任务同时压下来时，我怎么处理</span></h2><p>后面面试官问了一个比较标准的行为面问题：</p>
+<blockquote>
+<p>如果多个任务同时过来，你一般怎么处理？</p>
+</blockquote>
+<p>我回答的是我现在工作里已经形成的一套方法。</p>
+<p>第一步，我会先把老板发过来的问题和任务全部整理记录下来，不让它们在脑子里以一种很混乱的状态悬着。然后我会借助 Claude 帮我做一个优先级排序，把影响更大、依赖更多、或者难度更高的任务先拎出来。</p>
+<p>第二步，再按任务类型去拆。</p>
+<p>比如有些问题需要联系生产厂商确认，那我会优先把信息整理好，先发出去，因为厂商回复本身就需要时间；等厂商这边消息的过程中，我再去做那些当下就能完成的事情，比如改代码、理逻辑、补一些能先做的工作。</p>
+<p>这套方法说不上多高级，但至少能让我在任务很多的时候，先把节奏稳下来。</p>
+<p>我觉得这个回答的重点不在于“我用了什么工具”，而在于它传达了一个信息：</p>
+<blockquote>
+<p><strong>当环境本身很乱的时候，我会先自己把事情理顺。</strong></p>
+</blockquote>
+<hr>
+<h2><span id="五-压力最大的时候是什么状态">五、压力最大的时候是什么状态</span></h2><p>面试官接着问我：</p>
+<blockquote>
+<p>有没有压力特别大的时候？那种时候是什么感觉？</p>
+</blockquote>
+<p>这个问题我一下子就想到了刚进公司那阵子。</p>
+<p>大概是第二周还是第三周的时候，老板就把我负责的项目往上线方向推了，还定了一个比较紧的 DeadLine。</p>
+<p>那几天我连续三天加班到晚上十二点，回到公寓的时候整个人都已经非常疲惫。</p>
+<p>我当时的回答是：<br>这件事最后我确实做出来了，也确实学到了东西，但如果这种节奏变成常态，我觉得自己很难长期接受。</p>
+<p>而且我一直觉得，那次压力之所以那么大，不只是因为事情难，更是因为这个决策本身就不合理——让一个刚接手项目不久的实习生去承担正式上线前的推进任务，本身就是一个很冒险的安排。</p>
+<p>所以我想表达的不是“我不能扛压”，而是：</p>
+<blockquote>
+<p><strong>压力可以扛，但不代表所有压力都应该被默认合理。</strong></p>
+</blockquote>
+<hr>
+<h2><span id="六-老板的-pua-在哪里体现得最明显">六、老板的 PUA 在哪里体现得最明显</span></h2><p>面试官后面又单独追问了一次，让我更具体地说说，老板所谓的 PUA 到底体现在哪里。</p>
+<p>我这里还是围绕同一个核心来讲：<br><strong>不考虑实际情况地施压。</strong></p>
+<p>明知道我之前没有接触过磷酸铁锂电池，还是直接把 BMS 开发扔给我；明知道源码里本来就有很多问题，还是默认让我一个实习生去盯住；明知道很多问题需要时间排查、需要和厂商沟通确认，还是持续压进度、压 DeadLine。</p>
+<p>这种不舒服的地方，不在于“工作有挑战”，而在于：</p>
+<blockquote>
+<p><strong>明明前提条件就不成立，却还是默认你应该自己兜住一切。</strong></p>
+</blockquote>
+<p>这一段我其实也答得比较克制，因为这种问题如果说得太情绪化，会显得像在单纯抱怨。所以我尽量还是把重点放在“管理逻辑有问题”上，而不是只发泄不满。</p>
+<hr>
+<h2><span id="七-有没有做过一些没人要求你但你主动去做的事">七、有没有做过一些没人要求你，但你主动去做的事</span></h2><p>后面面试官问了一个我觉得还挺加分的问题：</p>
+<blockquote>
+<p>有没有做过一些老板没有明确安排，但你自己主动去推进的事情？</p>
+</blockquote>
+<p>我举的例子是最近调的一个 <strong>RX8130 RTC 实时时钟芯片</strong>。</p>
+<p>这个模块在履历系统里主要是为了做精确计时，方便后面系统出问题的时候，能根据时间点回溯故障发生的节点。我在调试过程中发现，这个模块断电之后基本就没法正常工作了。</p>
+<p>其实从“项目功能先跑起来”的角度来说，也不是完全没有替代方案。比如上电之后重新校准时间，也能勉强绕过去。</p>
+<p>但我的想法是，既然这个模块本来就是系统设计里应该存在的能力，那最好还是把它本身调通，而不是用别的方法去凑。</p>
+<p>所以后面我主动整理了问题，再找老板帮我联系厂商，最后通过和厂商对接把问题解决掉了。</p>
+<p>这个例子我觉得能说明一点：<br>我不是只想把事情“糊过去”，而是会希望它本身更完整一点。</p>
+<hr>
+<h2><span id="八-回头看那个任务哪里还能做得更好">八、回头看，那个任务哪里还能做得更好</span></h2><p>面试官接着又问：</p>
+<blockquote>
+<p>如果现在回头看，你觉得这个任务有哪些地方可以优化？</p>
+</blockquote>
+<p>这一题我自己的复盘也很清楚：</p>
+<blockquote>
+<p><strong>我应该更早一点去求助老板，让他帮忙拉厂商。</strong></p>
+</blockquote>
+<p>因为前两天我一直在自己对着技术手册硬调，但完全没有进展。直到第三天，我把问题反馈给主管，主管再转给老板，老板把我拉进厂商对接群之后，问题才真正开始被推进。</p>
+<p>换句话说，中间其实浪费了两天。</p>
+<p>所以这件事后来让我意识到，有些问题不是“再撑一撑就能自己解决”，而是应该更早识别出它已经超出了自己单独摸索的效率边界，然后尽快借助外部资源。</p>
+<p>我觉得面试官问这一题的重点，不只是想听你有没有复盘，而是想看你会不会从做过的事情里总结出更高效的做法。</p>
+<hr>
+<h2><span id="九-平时怎么用-ai-辅助开发">九、平时怎么用 AI 辅助开发</span></h2><p>后面面试官把话题转到了 AI 工具上，问我平时是怎么用 AI 做开发的。</p>
+<p>我这边的回答比较真实。</p>
+<p>目前我主要让 AI 做两类事情：</p>
+<ol>
+<li><strong>简单代码</strong></li>
+<li><strong>重复模块的扩展</strong></li>
+</ol>
+<p>比如现在履历系统里已经有一套存储电池系统时间的逻辑，那我就会让 AI 照着当前这套模式，把保护参数和运行参数的存储逻辑也补进去。</p>
+<p>这类任务里，AI 的优势很明显，因为它能节省掉大量重复劳动。<br>但如果问题复杂起来，尤其涉及主体逻辑的时候，我现在还是不会完全相信 AI。</p>
+<p>所以我对 AI 的定位一直比较明确：</p>
+<blockquote>
+<p><strong>它是高效的辅助工具，但不是能完全替我做决策的东西。</strong></p>
+</blockquote>
+<hr>
+<h2><span id="十-如果任务更复杂ai-该怎么介入">十、如果任务更复杂，AI 该怎么介入</span></h2><p>面试官接着问了一步更深的：</p>
+<blockquote>
+<p>如果难度更高，你会怎么让 AI 参与？</p>
+</blockquote>
+<p>我回答的核心思路是：</p>
+<blockquote>
+<p><strong>主逻辑由我来定，AI 负责实现和补全。</strong></p>
+</blockquote>
+<p>我通常会先自己把方案理出来，把需求、目标、限制条件、边界情况都写清楚，然后再让 AI 去生成实现。</p>
+<p>在它改代码之前，我也会先看它打算怎么改，看看理解有没有跑偏。如果它给出来的方案不合理，我会继续补充要求，或者直接指出问题，让它朝我需要的方向迭代。</p>
+<p>所以说到底，现在 AI 在我这里更多是：</p>
+<ul>
+<li>提效工具</li>
+<li>执行助手</li>
+<li>思路参考</li>
+</ul>
+<p>但“决策”这一层，还是得靠我自己来把关。</p>
+<hr>
+<h2><span id="十一-还用过哪些-ai-工具">十一、还用过哪些 AI 工具</span></h2><p>除了 Claude，我也提到了 Codex。</p>
+<p>我的体验大概是：</p>
+<ul>
+<li>Codex 有时候显得更聪明一点</li>
+<li>但它更慢</li>
+<li>所以不着急的任务我会用它</li>
+<li>真正日常开发里，还是 Claude 更顺手</li>
+</ul>
+<p>我还顺带说了一下自己的使用习惯：平时会同时开两到三个窗口，一个窗口负责一个模块，这样上下文更清晰，不容易串掉。</p>
+<p>这部分虽然不算特别核心，但我感觉面试官其实也是在确认：你到底是真的在用这些工具，还是只是口头上说自己“会用 AI”。</p>
+<hr>
+<h2><span id="十二-10-年后-15-年后想过什么样的生活">十二、10 年后、15 年后想过什么样的生活</span></h2><p>后面这个问题就比较典型了：</p>
+<blockquote>
+<p>你有没有想过 10 年后、15 年后的生活是什么样？</p>
+</blockquote>
+<p>我当时回答得挺朴素的：</p>
+<p>如果能结婚的话，那就是买房、生孩子、养孩子，下班回家和老婆孩子待在一起，其他也没什么太大的追求。</p>
+<p>现在回头看，这个回答确实很真实，但也确实太“生活化”了。如果从面试表达上来说，其实可以稍微加一点职业层面的东西，比如：</p>
+<ul>
+<li>希望在这个方向上继续做下去</li>
+<li>希望以后能在技术上更扎实</li>
+<li>希望有一个稳定但也能持续成长的工作状态</li>
+</ul>
+<p>这样整体会更完整一点。</p>
+<p>不过这个回答至少也传达出了一个很明确的信号：<br>我对未来的期待，本质上还是偏稳定、偏现实的。</p>
+<hr>
+<h2><span id="十三-如果回到大一还会怎么选">十三、如果回到大一，还会怎么选</span></h2><p>后面还有一个开放问题：</p>
+<blockquote>
+<p>如果不考虑现实因素，回到大一你会选择学习什么？</p>
+</blockquote>
+<p>我回答的是：大一的时候其实尝试过很多方向，前端、后端、游戏客户端都碰过，但最后还是更喜欢嵌入式。</p>
+<p>这个回答其实不只是“讲兴趣”，它更像是在说明一件事：</p>
+<blockquote>
+<p>现在选这个方向，不是因为完全没有别的选项，而是试过之后还是觉得它最适合自己。</p>
+</blockquote>
+<hr>
+<h2><span id="十四-对工作地点-时间和薪资的预期">十四、对工作地点、时间和薪资的预期</span></h2><p>最后也聊到了比较现实的问题：地点、工时和薪资。</p>
+<p>我这边的回答比较直接。</p>
+<p><strong>地点</strong>上，我说无所谓。<br>因为老家郑州相关岗位确实不多，所以我很早就接受了外地发展这件事。</p>
+<p><strong>时间</strong>上，理想状态当然是 965，但我也知道制造业里这基本不太现实。现在自己本身就在经历 996，所以 966、995 这种节奏我都能接受。</p>
+<p><strong>薪资</strong>上，因为本身就是实验室学长内推，提前知道大概是 8k，这个范围我是可以接受的。</p>
+<p>这一部分我感觉面试官主要是在确认：</p>
+<ul>
+<li>你是不是对现实有基本认知</li>
+<li>你会不会因为地点 &#x2F; 工时 &#x2F; 薪资很快动摇</li>
+<li>你的期待是不是落在一个合理范围内</li>
+</ul>
+<hr>
+<h2><span id="十五-整体感受">十五、整体感受</span></h2><p>整体来看，这场面试不算难，但它特别吃表达。</p>
+<p>因为它不是那种只要背了八股就能打过去的面试，而是你得把自己的经历、判断、感受和思考都讲清楚。既不能太空，也不能太情绪化。</p>
+<p>我觉得这场面试真正想看的，是这些东西：</p>
+<ul>
+<li>你面对混乱环境时会怎么做</li>
+<li>你会不会自己梳理节奏</li>
+<li>你能不能复盘问题</li>
+<li>你对压力的理解是不是成熟</li>
+<li>你怎么看待 AI</li>
+<li>你是不是一个能稳定做事的人</li>
+</ul>
+<p>它不是在考你“会不会”，而是在看你“像不像真的做过、扛过、想过”。</p>
+<hr>
+<h2><span id="十六-我的复盘">十六、我的复盘</span></h2><p>这场面试里，我觉得自己答得还可以的地方有：</p>
+<ol>
+<li><p><strong>当前实习经历讲得比较具体</strong><br>不只是说“我在做 BMS”，而是讲清楚了我怎么接手、怎么排查、怎么推进。</p>
+</li>
+<li><p><strong>AI 的使用方式回答得比较真实</strong><br>没有把 AI 说成万能，也没有故意神化工具，而是比较清楚地讲了人和 AI 的分工。</p>
+</li>
+<li><p><strong>对现实问题的回答比较直接</strong><br>地点、工时、薪资这些问题上，我的表达比较明确，也没有刻意包装。</p>
+</li>
+</ol>
+<p>但我也觉得有几个地方后面还可以答得更好：</p>
+<ol>
+<li><p><strong>对现公司的负面评价可以再收一点</strong><br>真实归真实，但太多负面描述有时候会让面试官担心：你以后会不会也这样看待下一家公司。</p>
+</li>
+<li><p><strong>“10 年后的生活”可以加一点职业维度</strong><br>不一定要说得很宏大，但稍微带一点职业成长感，整体会更完整。</p>
+</li>
+<li><p><strong>关于压力的表达可以更多落到成长上</strong><br>不只是说“很累”，还可以再补一句：这段经历让我学会了什么、意识到了什么。</p>
+</li>
+</ol>
+<p>还有很关键的一点：</p>
+<p><strong>面试官问的问题基本都和抗压能力有关</strong>,感觉很构式啊</p>
+<hr>
+<h2><span id="十七-总结">十七、总结</span></h2><p>如果后面还有人面类似的综合面，我觉得可以重点准备这些内容：</p>
+<ul>
+<li>当前实习 &#x2F; 项目到底做了什么</li>
+<li>压力最大的一次经历是什么</li>
+<li>多任务情况下你怎么处理</li>
+<li>有没有主动推进过什么事</li>
+<li>有没有复盘意识</li>
+<li>你怎么用 AI</li>
+<li>你对地点、工时、薪资怎么看</li>
+</ul>
+<p>这类面试不一定问得特别深，但它很看重一件事：</p>
+<blockquote>
+<p><strong>你说出来的话，像不像一个真的在那个环境里待过、做过事、想过未来的人。</strong></p>
+</blockquote>
+<hr>
+<p><strong>📎 总体来说，这是一场不考极限技术，而是更看重经历真实性、思考方式和稳定性的综合面。</strong></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://vow0328.github.io">vow</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://vow0328.github.io/2026/05/30/CVTE-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/">https://vow0328.github.io/2026/05/30/CVTE-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://vow0328.github.io" target="_blank">微光拾级</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9D%A2%E7%BB%8F/">面经</a></div><div class="post-share"><div class="social-share" data-image="/image/vow.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/05/27/%E7%BE%8E%E7%9A%84-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/" title="美的-综合面面经"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">美的-综合面面经</div></div><div class="info-2"><div class="info-item-1"> 🕐 美的集团 HR 面 &#x2F; 综合面🎯 岗位：电控开发助理工程师-软件-小家电  面试官主要围绕几个方向在问：  岗位和方向确认 教育背景与技术栈 实习经历和项目经历 为什么选择就业而不是考研 学校课程和实习之间怎么平衡 对当前工作强度的接受程度 稳定性、规划和培养潜力  整体聊下来，我感觉这场面试的重点不是“你会不会某个八股”，而是她想判断：  你这个人到底适不适合招进来，以及招进来之后稳不稳定、能不能用。     一、开场：确认岗位方向 + 自我介绍一开始就是比较常规的流程，先由 HR 开启面试，然后确认我投递的岗位方向。 我这边简单介绍了自己的背景，大概包括：  嵌入式软件方向 C &#x2F; C++ 基础 STM32 底层驱动开发经验 FreeRTOS 任务调度 PID 等控制算法 当前实习主要在做 BMS 相关开发  这里我提到了自己现在在做 磷酸铁锂电池 SOC 计算模块，也提到了一些控制算法相关内容，比如 S 型加速算法支持 40k 频率输出 之类的细节。 从面试官后面的追问来看，这一段她主要是在建立一个初步印象：你到底是不是这个方向的人，你的技术栈...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/05/01/%E7%BE%8E%E7%9A%84-AI%E9%9D%A2%E9%9D%A2%E7%BB%8F/" title="美的-AI面面经"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-01</div><div class="info-item-2">美的-AI面面经</div></div><div class="info-2"><div class="info-item-1"> 🎯 面试岗位： 电控开发助理工程师-软件-小家电  说实话，提笔写这篇面经的时候，我都在深深怀疑它的必要性。 为了这场面试，我认认真真准备了一个多小时，结果点进去一看——15道 MBTI 性格测试选择题，然后，就结束了。  不是，哥们？美的你在搞什么？现在的 AI 面试都是这么面的吗？     🤡 被“虚晃一枪”的开局最离谱的是它的开始界面。 系统煞有介事地弹出版面提示：“本次面试包含开放性问题，其中一道需用英语作答。” 我当时心里“咯噔”一下，给我这个英语白痴当场就被唬住了。甚至连英文版自我介绍和专业词汇都在脑子里疯狂打草稿，做好了要和 AI 考官大战三百回合的准备。 结果翻到下一页，画风突变，直接给我弹出了纯纯的 MBTI 性格测试题…… 看到题目的那一瞬间，我是真没绷住。  💬 吐槽与总结整个“面试”过程的核心就是：选完 15 道性格测试题，光速下播。 我不知道这个所谓的“AI 面试”是不是不同岗位的题库不一样，反正针对我投递的这个小家电软件岗位，这波操作属实是把我干沉默了。  📝 面试总结：准备一小时，答题两分钟。英语没用上，MBTI 测挺准。只能说，美的，真有...</div></div></div></a><a class="pagination-related" href="/2026/04/30/CVTE-%E6%8A%80%E6%9C%AF%E9%9D%A2%E9%9D%A2%E7%BB%8F/" title="CVTE-技术面面经"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-04-30</div><div class="info-item-2">CVTE-技术面面经</div></div><div class="info-2"><div class="info-item-1"> 🕐 2026.04.30 ｜ CVTE 技术面 ｜ 面试时长 38 分钟 | 岗位: 嵌入式系统软件工程师  这场一共面了 38 分钟，前半段主要是理论知识拷打，后半段是 15 分钟允许 AI 辅助的串口接收代码题。 因为当时没做完整记录，下面主要是凭印象回忆整理。    🙋 自我介绍这部分直接略过。  📚 理论知识进程和线程的区别上来就问操作系统，这个确实有点把我打懵了。当时大概只答了：进程有独立内存空间，进程之间不能直接通信、切换开销更大；线程是进程里的执行单元，共享进程空间，线程之间通信更直接。  参考答案   进程：系统进行资源分配的最小单位，拥有独立的地址空间 线程：CPU 调度的最小单位，是进程中的一个执行流 区别： 进程有独立的内存空间，线程共享所属进程的内存空间 进程切换开销大，线程切换开销小 进程间通信需要 IPC，线程间通信更直接 一个进程崩溃通常不影响别的进程，一个线程崩溃可能导致整个进程崩溃       系统资源分配的最小单位是什么？这个我当时是直接猜的进程。  参考答案  是 进程。  进程：资源分配的最小单位 线程：CPU 调度的最小单位   ...</div></div></div></a><a class="pagination-related" href="/2026/05/27/%E7%BE%8E%E7%9A%84-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/" title="美的-综合面面经"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-05-27</div><div class="info-item-2">美的-综合面面经</div></div><div class="info-2"><div class="info-item-1"> 🕐 美的集团 HR 面 &#x2F; 综合面🎯 岗位：电控开发助理工程师-软件-小家电  面试官主要围绕几个方向在问：  岗位和方向确认 教育背景与技术栈 实习经历和项目经历 为什么选择就业而不是考研 学校课程和实习之间怎么平衡 对当前工作强度的接受程度 稳定性、规划和培养潜力  整体聊下来，我感觉这场面试的重点不是“你会不会某个八股”，而是她想判断：  你这个人到底适不适合招进来，以及招进来之后稳不稳定、能不能用。     一、开场：确认岗位方向 + 自我介绍一开始就是比较常规的流程，先由 HR 开启面试，然后确认我投递的岗位方向。 我这边简单介绍了自己的背景，大概包括：  嵌入式软件方向 C &#x2F; C++ 基础 STM32 底层驱动开发经验 FreeRTOS 任务调度 PID 等控制算法 当前实习主要在做 BMS 相关开发  这里我提到了自己现在在做 磷酸铁锂电池 SOC 计算模块，也提到了一些控制算法相关内容，比如 S 型加速算法支持 40k 频率输出 之类的细节。 从面试官后面的追问来看，这一段她主要是在建立一个初步印象：你到底是不是这个方向的人，你的技术栈...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/image/vow.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/ loading='lazy'></div><div class="author-info-name">vow</div><div class="author-info-description">STM32 | FreeRTOS | 嵌入式开发</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/vow0328"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/vow0328" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">微光拾级</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">一、先从“你现在在干嘛”开始</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">二、为什么不想留在现在这家公司</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">三、所谓“管理差”，到底差在哪</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">4.</span> <span class="toc-text">四、多个任务同时压下来时，我怎么处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">5.</span> <span class="toc-text">五、压力最大的时候是什么状态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">6.</span> <span class="toc-text">六、老板的 PUA 在哪里体现得最明显</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">7.</span> <span class="toc-text">七、有没有做过一些没人要求你，但你主动去做的事</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">8.</span> <span class="toc-text">八、回头看，那个任务哪里还能做得更好</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">9.</span> <span class="toc-text">九、平时怎么用 AI 辅助开发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">10.</span> <span class="toc-text">十、如果任务更复杂，AI 该怎么介入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">11.</span> <span class="toc-text">十一、还用过哪些 AI 工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">12.</span> <span class="toc-text">十二、10 年后、15 年后想过什么样的生活</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">13.</span> <span class="toc-text">十三、如果回到大一，还会怎么选</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">14.</span> <span class="toc-text">十四、对工作地点、时间和薪资的预期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">15.</span> <span class="toc-text">十五、整体感受</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">16.</span> <span class="toc-text">十六、我的复盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">17.</span> <span class="toc-text">十七、总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/30/CVTE-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/" title="CVTE-综合面面经">CVTE-综合面面经</a><time datetime="2026-05-30T02:45:28.000Z" title="发表于 2026-05-30 10:45:28">2026-05-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/27/%E7%BE%8E%E7%9A%84-%E7%BB%BC%E5%90%88%E9%9D%A2%E9%9D%A2%E7%BB%8F/" title="美的-综合面面经">美的-综合面面经</a><time datetime="2026-05-27T09:08:09.000Z" title="发表于 2026-05-27 17:08:09">2026-05-27</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/26/%E9%80%89%E6%8B%A9%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%89%8D%EF%BC%8C%E4%BD%A0%E5%BA%94%E8%AF%A5%E5%85%88%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B/" title="选择嵌入式实验室前，你应该先知道的事">选择嵌入式实验室前，你应该先知道的事</a><time datetime="2026-05-26T13:14:49.000Z" title="发表于 2026-05-26 21:14:49">2026-05-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/24/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-12/" title="微光拾级-12">微光拾级-12</a><time datetime="2026-05-24T09:11:42.000Z" title="发表于 2026-05-24 17:11:42">2026-05-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/05/18/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-11/" title="微光拾级-11">微光拾级-11</a><time datetime="2026-05-17T16:54:47.000Z" title="发表于 2026-05-18 00:54:47">2026-05-18</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By vow</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1.9/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(async () => {
+  const showKatex = () => {
+    document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
+  }
+
+  if (!window.katex_js_css) {
+    window.katex_js_css = true
+    await btf.getCSS('https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.css')
+    if (false) {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/contrib/copy-tex.min.js')
+    }
+  }
+
+  showKatex()
+})()</script><script>(() => {
+  const parseViewBox = viewBox => {
+    if (!viewBox) return null
+    const parts = viewBox.trim().split(/[\s,]+/).map(n => Number(n))
+    if (parts.length !== 4 || parts.some(n => Number.isNaN(n))) return null
+    return parts
+  }
+
+  const getSvgViewBox = svg => {
+    const attr = parseViewBox(svg.getAttribute('viewBox'))
+    if (attr) return attr
+
+    // Fallback: use bbox to build a viewBox
+    try {
+      const bbox = svg.getBBox()
+      if (bbox && bbox.width && bbox.height) return [bbox.x, bbox.y, bbox.width, bbox.height]
+    } catch (e) {
+      // getBBox may fail on some edge cases; ignore
+    }
+
+    const w = Number(svg.getAttribute('width')) || 0
+    const h = Number(svg.getAttribute('height')) || 0
+    if (w > 0 && h > 0) return [0, 0, w, h]
+    return [0, 0, 100, 100]
+  }
+
+  const setSvgViewBox = (svg, vb) => {
+    svg.setAttribute('viewBox', `${vb[0]} ${vb[1]} ${vb[2]} ${vb[3]}`)
+  }
+
+  const clamp = (v, min, max) => Math.max(min, Math.min(max, v))
+
+  const openSvgInNewTab = ({ source, initViewBox }) => {
+    const getClonedSvg = () => {
+      if (typeof source === 'string') {
+        const template = document.createElement('template')
+        template.innerHTML = source.trim()
+        const svg = template.content.querySelector('svg')
+        return svg ? svg.cloneNode(true) : null
+      }
+      if (source && typeof source.cloneNode === 'function') {
+        return source.cloneNode(true)
+      }
+      return null
+    }
+
+    const clone = getClonedSvg()
+    if (!clone) return
+    if (initViewBox && initViewBox.length === 4) {
+      clone.setAttribute('viewBox', initViewBox.join(' '))
+    }
+    if (!clone.getAttribute('xmlns')) clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg')
+    if (!clone.getAttribute('xmlns:xlink') && clone.outerHTML.includes('xlink:')) {
+      clone.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink')
+    }
+    // inject background to match current theme
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
+    const bg = getComputedStyle(document.body).backgroundColor || (isDark ? '#1e1e1e' : '#ffffff')
+    if (!clone.style.background) clone.style.background = bg
+
+    const serializer = new XMLSerializer()
+    const svgSource = serializer.serializeToString(clone)
+    const htmlSource = `<!doctype html><html><head><meta charset="utf-8" />
+      <style>
+        html, body { width: 100%; height: 100%; margin: 0; display: flex; align-items: center; justify-content: center; background: ${bg}; }
+        svg { max-width: 100%; max-height: 100%; height: auto; width: auto; }
+      </style>
+      </head><body>${svgSource}</body></html>`
+    const blob = new Blob([htmlSource], { type: 'text/html;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    window.open(url, '_blank', 'noopener')
+    setTimeout(() => URL.revokeObjectURL(url), 30000)
+  }
+
+  const attachMermaidViewerButton = wrap => {
+    let btn = wrap.querySelector('.mermaid-open-btn')
+    if (!btn) {
+      btn = document.createElement('button')
+      btn.type = 'button'
+      btn.className = 'mermaid-open-btn'
+      wrap.appendChild(btn)
+    }
+
+    btn.innerHTML = '<i class="fa fa-search fa-fw" aria-hidden="true"></i>'
+
+    if (!btn.__mermaidViewerBound) {
+      btn.addEventListener('click', e => {
+        e.preventDefault()
+        e.stopPropagation()
+        const svg = wrap.__mermaidOriginalSvg || wrap.querySelector('svg')
+        if (!svg) return
+        const initViewBox = wrap.__mermaidInitViewBox
+        if (typeof svg === 'string') {
+          openSvgInNewTab({ source: svg, initViewBox })
+          return
+        }
+        openSvgInNewTab({ source: svg, initViewBox })
+      })
+      btn.__mermaidViewerBound = true
+    }
+  }
+
+  // Zoom around a point (px, py) in the SVG viewport (in viewBox coordinates)
+  const zoomAtPoint = (vb, factor, px, py) => {
+    const w = vb[2] * factor
+    const h = vb[3] * factor
+    const nx = px - (px - vb[0]) * factor
+    const ny = py - (py - vb[1]) * factor
+    return [nx, ny, w, h]
+  }
+
+  const initMermaidGestures = wrap => {
+    const svg = wrap.querySelector('svg')
+    if (!svg) return
+
+    // Ensure viewBox exists so gestures always work
+    const initVb = getSvgViewBox(svg)
+    wrap.__mermaidInitViewBox = initVb
+    wrap.__mermaidCurViewBox = initVb.slice()
+    setSvgViewBox(svg, initVb)
+
+    // Avoid binding multiple times on themeChange/pjax
+    if (wrap.__mermaidGestureBound) return
+    wrap.__mermaidGestureBound = true
+
+    // Helper: map client (viewport) coordinate -> viewBox coordinate
+    const clientToViewBox = (clientX, clientY) => {
+      const rect = svg.getBoundingClientRect()
+      const vb = wrap.__mermaidCurViewBox || getSvgViewBox(svg)
+      const x = vb[0] + (clientX - rect.left) * (vb[2] / rect.width)
+      const y = vb[1] + (clientY - rect.top) * (vb[3] / rect.height)
+      return { x, y, rect, vb }
+    }
+
+    const state = {
+      pointers: new Map(),
+      startVb: null,
+      startDist: 0,
+      startCenter: null
+    }
+
+    const clampVb = vb => {
+      const init = wrap.__mermaidInitViewBox || vb
+      const minW = init[2] * 0.1
+      const maxW = init[2] * 10
+      const minH = init[3] * 0.1
+      const maxH = init[3] * 10
+      vb[2] = clamp(vb[2], minW, maxW)
+      vb[3] = clamp(vb[3], minH, maxH)
+      return vb
+    }
+
+    const setCurVb = vb => {
+      vb = clampVb(vb)
+      wrap.__mermaidCurViewBox = vb
+      setSvgViewBox(svg, vb)
+    }
+
+    const onPointerDown = e => {
+      // Allow only primary button for mouse
+      if (e.pointerType === 'mouse' && e.button !== 0) return
+      svg.setPointerCapture(e.pointerId)
+      state.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY })
+
+      if (state.pointers.size === 1) {
+        state.startVb = (wrap.__mermaidCurViewBox || getSvgViewBox(svg)).slice()
+      } else if (state.pointers.size === 2) {
+        const pts = [...state.pointers.values()]
+        const dx = pts[0].x - pts[1].x
+        const dy = pts[0].y - pts[1].y
+        state.startDist = Math.hypot(dx, dy)
+        state.startVb = (wrap.__mermaidCurViewBox || getSvgViewBox(svg)).slice()
+        state.startCenter = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 }
+      }
+    }
+
+    const onPointerMove = e => {
+      if (!state.pointers.has(e.pointerId)) return
+      state.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY })
+
+      // Pan with 1 pointer
+      if (state.pointers.size === 1 && state.startVb) {
+        const p = [...state.pointers.values()][0]
+        const prev = { x: e.clientX - e.movementX, y: e.clientY - e.movementY }
+        // movementX/Y unreliable on touch, compute from stored last position
+        const last = wrap.__mermaidLastSinglePointer || p
+        const dxClient = p.x - last.x
+        const dyClient = p.y - last.y
+        wrap.__mermaidLastSinglePointer = p
+
+        const { rect } = clientToViewBox(p.x, p.y)
+        const vb = (wrap.__mermaidCurViewBox || getSvgViewBox(svg)).slice()
+        const dx = dxClient * (vb[2] / rect.width)
+        const dy = dyClient * (vb[3] / rect.height)
+        setCurVb([vb[0] - dx, vb[1] - dy, vb[2], vb[3]])
+        return
+      }
+
+      // Pinch zoom with 2 pointers
+      if (state.pointers.size === 2 && state.startVb && state.startDist > 0) {
+        const pts = [...state.pointers.values()]
+        const dx = pts[0].x - pts[1].x
+        const dy = pts[0].y - pts[1].y
+        const dist = Math.hypot(dx, dy)
+        if (!dist) return
+        const factor = state.startDist / dist // dist bigger => zoom in (viewBox smaller)
+
+        const cx = (pts[0].x + pts[1].x) / 2
+        const cy = (pts[0].y + pts[1].y) / 2
+        const centerClient = { x: cx, y: cy }
+
+        const pxy = clientToViewBox(centerClient.x, centerClient.y)
+        const cpx = pxy.x
+        const cpy = pxy.y
+
+        const vb = zoomAtPoint(state.startVb, factor, cpx, cpy)
+        setCurVb(vb)
+      }
+    }
+
+    const onPointerUpOrCancel = e => {
+      state.pointers.delete(e.pointerId)
+      if (state.pointers.size === 0) {
+        state.startVb = null
+        state.startDist = 0
+        state.startCenter = null
+        wrap.__mermaidLastSinglePointer = null
+      } else if (state.pointers.size === 1) {
+        // reset single pointer baseline to avoid jump
+        wrap.__mermaidLastSinglePointer = [...state.pointers.values()][0]
+      }
+    }
+
+    // Wheel zoom (mouse/trackpad)
+    const onWheel = e => {
+      // ctrlKey on mac trackpad pinch; we treat both as zoom
+      e.preventDefault()
+      const delta = e.deltaY
+      const zoomFactor = delta > 0 ? 1.1 : 0.9
+      const { x, y } = clientToViewBox(e.clientX, e.clientY)
+      const vb = (wrap.__mermaidCurViewBox || getSvgViewBox(svg)).slice()
+      setCurVb(zoomAtPoint(vb, zoomFactor, x, y))
+    }
+
+    const onDblClick = () => {
+      const init = wrap.__mermaidInitViewBox
+      if (!init) return
+      wrap.__mermaidCurViewBox = init.slice()
+      setSvgViewBox(svg, init)
+    }
+
+    svg.addEventListener('pointerdown', onPointerDown)
+    svg.addEventListener('pointermove', onPointerMove)
+    svg.addEventListener('pointerup', onPointerUpOrCancel)
+    svg.addEventListener('pointercancel', onPointerUpOrCancel)
+    svg.addEventListener('wheel', onWheel, { passive: false })
+    svg.addEventListener('dblclick', onDblClick)
+  }
+
+  const runMermaid = ele => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    ele.forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+
+      // Clear old render (themeChange/pjax will rerun)
+      const oldSvg = item.querySelector('svg')
+      if (oldSvg) oldSvg.remove()
+      item.__mermaidGestureBound = false
+
+      const config = mermaidSrc.dataset.config ? JSON.parse(mermaidSrc.dataset.config) : {}
+      if (!config.theme) {
+        config.theme = theme
+      }
+      const mermaidThemeConfig = `%%{init: ${JSON.stringify(config)}}%%\n`
+      const mermaidID = `mermaid-${index}`
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+      const renderMermaid = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+        if (true) initMermaidGestures(item)
+        item.__mermaidOriginalSvg = svg
+        if (true) attachMermaidViewerButton(item)
+      }
+
+
+      // mermaid v9 and v10 compatibility
+      typeof renderFn === 'string' ? renderMermaid(renderFn) : renderFn.then(({ svg }) => renderMermaid(svg))
+    })
+  }
+
+  const codeToMermaid = () => {
+    const codeMermaidEle = document.querySelectorAll('pre > code.mermaid')
+    if (codeMermaidEle.length === 0) return
+
+    codeMermaidEle.forEach(ele => {
+      const preEle = document.createElement('pre')
+      preEle.className = 'mermaid-src'
+      preEle.hidden = true
+      preEle.textContent = ele.textContent
+      const newEle = document.createElement('div')
+      newEle.className = 'mermaid-wrap'
+      newEle.appendChild(preEle)
+      ele.parentNode.replaceWith(newEle)
+    })
+  }
+
+  const loadMermaid = () => {
+    if (false) codeToMermaid()
+    const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+    if ($mermaid.length === 0) return
+
+    const runMermaidFn = () => runMermaid($mermaid)
+    btf.addGlobalFn('themeChange', runMermaidFn, 'mermaid')
+    window.loadMermaid ? runMermaidFn() : btf.getScript('https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.min.js').then(runMermaidFn)
+  }
+
+  btf.addGlobalFn('encrypt', loadMermaid, 'mermaid')
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const createScriptElement = config => {
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => {
+      ele.setAttribute(key, value)
+    })
+    return ele
+  }
+
+  const loadGiscus = (el = document, key) => {
+    const mappingConfig = isShuoshuo
+      ? { 'data-mapping': 'specific', 'data-term': key }
+      : { 'data-mapping': (option && option['data-mapping']) || 'pathname' }
+
+    const giscusConfig = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'vow0328/vow0328.github.io',
+      'data-repo-id': 'R_kgDORhYiLw',
+      'data-category-id': 'DIC_kwDORhYiL84C38bG',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      ...mappingConfig
+    }
+
+    const scriptElement = createScriptElement(giscusConfig)
+
+    el.querySelector('#giscus-wrap').appendChild(scriptElement)
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGiscus = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if (isShuoshuo) {
+    'Giscus' === 'Giscus'
+      ? window.shuoshuoComment = { loadComment: loadGiscus }
+      : window.loadOtherComment = loadGiscus
+    return
+  }
+
+  if ('Giscus' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment = loadGiscus
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章..." type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.4"></script></div></div></body></html>
