@@ -10,7 +10,31 @@
   <rights>All rights reserved 2026, vow</rights>
   <subtitle>嵌入式 | Linux | 机器人 | 生活</subtitle>
   <title>微光拾级</title>
-  <updated>2026-06-23T11:18:49.797Z</updated>
+  <updated>2026-07-05T14:36:10.243Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.06.22 — 2026.07.05 ｜ 假期结束</p></blockquote><hr><h2><span id="假期落幕回到原点">🧳 假期落幕，回到原点</span></h2><p>期末周假期正式结束。</p><p>这两周里，我一边考试，一边投简历，也认真想过要不要趁这个空档换一份工作。可惜最后还是没能找到合适的下家。</p><p>权衡了一下，只能先回原公司继续干着。生活暂时回到了熟悉的轨道上。</p><hr><h2><span id="久违的彻底休息">🛌 久违的“彻底休息”</span></h2><p>不得不说，在学校躺着的这两周，真的很舒服。</p><p>虽然称不上高效，甚至可以说什么都没做成，但长期“996”积累下来的疲惫，确实被缓解了不少。那种持续性的精神紧绷，终于松了一点。</p><p>有时候休息本身，就是一件正经事。</p><hr><h2><span id="计划搁置但方向还在">📚 计划搁置，但方向还在</span></h2><p>遗憾的是，原本打算推进的学习任务并没有如预期展开。</p><p>本来计划是等学完阶段内容后，直接辞职再找下家。但现实再次提醒我，在“996”的强度下想要骑驴找马，确实太难了——白天消耗殆尽，晚上根本提不起持续学习的精力。</p><p>不过，方向没有变。</p><p>既然这次没能顺利切换轨道，那就再积累一段时间。等准备更充分一点，再做选择。焦虑归焦虑，路还是要一步步走。</p><hr><p>假期结束，工位重启。</p><p>希望下一次离开，是带着更从容的底气。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/07/05/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-17/</id>
+    <link href="https://vow0328.github.io/2026/07/05/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-17/"/>
+    <published>2026-07-05T14:23:37.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.06.22 — 2026.07.05 ｜ 假期结束</p>
+</blockquote>
+<hr>
+<h2><span id="假期落幕回到原点">🧳 假期落幕，回到原点</span></h2><p>期末周假期正式结束。</p>
+<]]>
+    </summary>
+    <title>微光拾级-17</title>
+    <updated>2026-07-05T14:36:10.243Z</updated>
+  </entry>
   <entry>
     <author>
       <name>vow</name>
@@ -490,27 +514,5 @@
     </summary>
     <title>微光拾级-03</title>
     <updated>2026-04-27T16:26:14.068Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>vow</name>
-    </author>
-    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
-    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    <content>
-      <![CDATA[<p>🕐 2026.03.11 — 2026.03.14 ｜ 实习第一周</p><hr><h2><span id="关于租房">🏠 关于租房</span></h2><p>入职前两天线下看房找房，真的把自己累得不轻。</p><p>跑了好几个地方，最后机缘巧合在闲鱼上刷到一个帖子——一个中介自己住的房子在找合租室友。说实话，刚开始真以为是中介冒充房东的老套路，反复确认之后才发现，是一群做中介的年轻人合租在一起，刚好空出来一间。</p><blockquote><p><strong>750&#x2F;月</strong>，房间不大，但够住，性价比还算可以。</p></blockquote><p>算是在兵荒马乱里，落了个脚。</p><hr><h2><span id="关于工作">💼 关于工作</span></h2><p>目前还算轻松，节奏比想象中舒服不少。</p><p>公司很喜欢用 <strong>Claude Code</strong> 干活——经常就是敲完指令，两手一摊，好不悠闲。研发部和总部不在一起办公，平常管理也不算严苛，没什么条条框框的束缚感。</p><p>前辈们都很年轻，沟通起来没有距离感，这一点挺好的。</p><p>虽然是 <strong>996</strong>，但目前的工作强度还在舒适区内。</p><hr><h2><span id="碎碎念">💭 碎碎念</span></h2><blockquote><p>实习第一周，忙碌但新鲜。<br>希望这份工作的悠闲，能一直持续到我离职那天吧。</p></blockquote><hr><p>✨ 新城市、新住处、新工作——一切都在慢慢步入正轨。</p>]]>
-    </content>
-    <id>https://vow0328.github.io/2026/03/15/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-02/</id>
-    <link href="https://vow0328.github.io/2026/03/15/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-02/"/>
-    <published>2026-03-15T10:18:25.000Z</published>
-    <summary>
-      <![CDATA[<p>🕐 2026.03.11 — 2026.03.14 ｜ 实习第一周</p>
-<hr>
-<h2><span id="关于租房">🏠 关于租房</span></h2><p>入职前两天线下看房找房，真的把自己累得不轻。</p>
-<p>跑了好几个地方，最后机缘巧合在闲鱼上刷到一]]>
-    </summary>
-    <title>微光拾级-02</title>
-    <updated>2026-03-22T11:25:47.125Z</updated>
   </entry>
 </feed>
