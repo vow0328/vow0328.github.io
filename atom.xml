@@ -10,7 +10,30 @@
   <rights>All rights reserved 2026, vow</rights>
   <subtitle>嵌入式 | Linux | 机器人 | 生活</subtitle>
   <title>微光拾级</title>
-  <updated>2026-07-05T14:36:10.243Z</updated>
+  <updated>2026-07-14T14:20:23.854Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.07.06 — 2026.07.12 ｜ 复工 · 麻木 · 决意</p></blockquote><hr><h2><span id="重回轨道熟悉的麻木">🔙 重回轨道，熟悉的麻木</span></h2><p>“主播主播，你已经复工十几天了，怎么不更新了，是不是忘了？”</p><p>卧槽，我还真给忘了。不过没事，把 date 改成两天前不就完了。</p><p>总之，又回到了熟悉的公寓，熟悉的工位，熟悉的 996。相比起初来公司时的那股新鲜劲儿，现在已经变得足够麻木了。激情、活力、对未来的向往——这些东西好像被日复一日的重复一点点磨平了，剩下的只有机械地打卡、干活、下班、睡觉。</p><hr><h2><span id="高质量摸鱼">📖 高质量摸鱼</span></h2><p>上一周开启了高强度摸鱼模式，平均每天能摸四个小时。</p><p>不过和以前不一样的是，这次没有把时间花在刷 B 站上，而是全部投入到了嵌入式 Linux 的学习里。一周更比三周强，一转眼的功夫，原本那份两个月的学习计划已经完成大半了。</p><p>不得不说，带薪学习的感觉，比带薪发呆踏实多了。</p><hr><h2><span id="发货在即现场催命">📦 发货在即，现场催命</span></h2><p>公司这边的项目已经走完了测试环节，马上就要正式发货了。</p><p>但果不其然，一到节骨眼上，现场就噼里啪啦反馈回来一堆问题，又是熟悉的加班加点、熟悉的紧急修复。哎哎，项目的最后一公里，永远是最难熬的。</p><hr><h2><span id="不破不立">🚪 不破不立</span></h2><p>最后，也做了一个决定：准备离职了。</p><p>等手头的学习计划完成，就开始找下一份工作。至于在职期间能不能找到——找不到也认了。996 的节奏下想要骑驴找马，本身就是一件近乎奢望的事情。</p><p>那就当作不破不立吧。与其在麻木里一点点耗下去，不如先把后路断掉，逼自己往前走。焦虑归焦虑，但至少这一次，方向攥在自己手里。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/07/12/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-18/</id>
+    <link href="https://vow0328.github.io/2026/07/12/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-18/"/>
+    <published>2026-07-12T13:26:17.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.07.06 — 2026.07.12 ｜ 复工 · 麻木 · 决意</p>
+</blockquote>
+<hr>
+<h2><span id="重回轨道熟悉的麻木">🔙 重回轨道，熟悉的麻木</span></h2><p>“主播主播，]]>
+    </summary>
+    <title>微光拾级-18</title>
+    <updated>2026-07-14T14:20:23.854Z</updated>
+  </entry>
   <entry>
     <author>
       <name>vow</name>
@@ -491,28 +514,5 @@
     </summary>
     <title>微光拾级-04</title>
     <updated>2026-04-27T16:26:02.754Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>vow</name>
-    </author>
-    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
-    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    <content>
-      <![CDATA[<blockquote><p>🕐 2026.03.16 — 2026.03.21 ｜ 实习第二周</p></blockquote><hr><h2><span id="关于工作">💼 关于工作</span></h2><p>目前已经实习两周，整体工作强度还算中等。</p><p>但有个让人头疼的问题——<strong>前任留下的代码，几乎每一处逻辑都有问题</strong>。</p><p>看着那些屎山代码，真想直接推翻重构。但毕竟是实习生，这种大刀阔斧的事情做不了（转正再说吧）。</p><blockquote><p>实习生能做到什么程度呢？我也不知道。</p></blockquote><p>不过突然意识到，自己好像也<strong>忘记提升技能</strong>了——怠惰了。</p><hr><h2><span id="关于生活">🚴 关于生活</span></h2><p>这周补充了不少生活用品，把小窝逐渐填满。</p><p>最骚的操作是：在闲鱼上 <strong>150 块淘了一辆二手山地车</strong>，唯一的代价是——自提。</p><p>于是我从卖家那里，<strong>怒骑 12 公里</strong>回到公寓。</p><blockquote><p>一周的运动量，提前达成 ✅</p></blockquote><hr><h2><span id="碎碎念">💭 碎碎念</span></h2><p>工作上遇到屎山代码，生活上骑车穿越半个城市。</p><p>都是需要”忍耐”和”体力”的事。</p><p>但至少，<strong>车是自己的了</strong>。</p><hr><p>✨ 第二周：适应期结束，开始面对真实的战场。</p>]]>
-    </content>
-    <id>https://vow0328.github.io/2026/03/22/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-03/</id>
-    <link href="https://vow0328.github.io/2026/03/22/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-03/"/>
-    <published>2026-03-22T10:54:26.000Z</published>
-    <summary>
-      <![CDATA[<blockquote>
-<p>🕐 2026.03.16 — 2026.03.21 ｜ 实习第二周</p>
-</blockquote>
-<hr>
-<h2><span id="关于工作">💼 关于工作</span></h2><p>目前已经实习两周，整体工作强度还算中等。</p>]]>
-    </summary>
-    <title>微光拾级-03</title>
-    <updated>2026-04-27T16:26:14.068Z</updated>
   </entry>
 </feed>
