@@ -10,7 +10,30 @@
   <rights>All rights reserved 2026, vow</rights>
   <subtitle>嵌入式 | Linux | 机器人 | 生活</subtitle>
   <title>微光拾级</title>
-  <updated>2026-07-14T14:20:23.854Z</updated>
+  <updated>2026-07-19T12:06:45.443Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.07.13 — 2026.07.19 ｜ 失窃 · 重逢 · 孤独</p></blockquote><hr><h2><span id="最后一公里永不缺席">📦 最后一公里，永不缺席</span></h2><p>现场急着发货，新版本的代码催得一天比一天紧。</p><p>好在已经不是第一次被这样催了，勉强还能应付得过来。该改的改，该测的测，节奏虽然乱，但没有崩。只能说，项目的最后一公里，永远是最难熬的——这一点上一周就领教过了，这一周不过是换了个姿势继续熬。</p><hr><h2><span id="进度条在走">📖 进度条在走</span></h2><p>Linux 的学习进度还算顺利。</p><p>按目前的节奏，下周差不多就能把应用开发的大致流程过一遍了。学完之后，就该开始改简历、投简历了。</p><p>说实话，心里没底。但至少进度条在往前走，比原地发呆强。</p><hr><h2><span id="那一晚我没哭">🚲 那一晚，我没哭</span></h2><p>周三晚上，下班准备骑车回家的时候，发现自行车不见了。</p><p>被偷了。</p><p>报警之后，一口气来了三辆警车，那阵仗把我都吓懵了。阿 Sir 详细问完情况，登记完毕，让我先回去等通知。</p><p>那天晚上洗澡的时候，情绪突然就涌上来了。他乡陌客，孑然一人，所有负面的东西像被堵在腹腔里一样，找不到出口。有那么一瞬间，真的很想哭。</p><p>但最后还是没哭出来。</p><p>不是因为坚强，而是因为不敢。在一个陌生的环境里，哭出来等于向外界宣告你的软弱——这是致命的。于是硬生生把那口气咽了回去，冲完澡，擦干，躺下。一个晚上，漫长得像一整年。</p><p>所幸的是，第二天车子找到了。不知道被哪个没浮木的东西骑走，扔在路边就不管了。</p><p>车回来了，但那个晚上卡在喉咙里的东西，好像还没完全下去。</p><hr><h2><span id="重逢之后更寂寞">🎮 重逢之后，更寂寞</span></h2><p>周末终于和杭州的两位朋友线下聚餐了。</p><p>久违的重逢。吐槽了很多工作和生活的不快，然后畅玩了两个小时的 Switch 多人游戏，笑得很尽兴。后来因为天气预报说要下暴雨，大家就提前散了。</p><p>结果我都到公寓了，雨一滴都没下。被天气预报结结实实地坑了一回。</p><p>但真正让我没想到的是另一件事。</p><p>本来以为和朋友见一面，心里的那些孤独和寂寞就能缓解不少。结果恰恰相反——聚会结束之后，那种孤独感反而更重了。像是一个人饿久了，突然吃了一口饭，才发现自己原来饿了这么久。</p><p>我真得休息几天了。996 对生活造成的侵蚀，比我想象的严重太多。它不只是偷走你的时间，还在你察觉不到的时候，一点一点把你的社交、你的情绪、你对生活的感知力，全都磨平了。</p><hr><p>车子找回来了，朋友也见了，学习进度也没落下——按理说，这一周不算太差。</p><p>但有些东西，不是”事情解决了”就能翻篇的。那个强忍住的夜晚，和聚会散场后空荡荡的公寓，都在提醒我一件事：撑下去和好好活着之间，隔着一段比想象中更长的路。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/07/19/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-19/</id>
+    <link href="https://vow0328.github.io/2026/07/19/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-19/"/>
+    <published>2026-07-19T09:04:00.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.07.13 — 2026.07.19 ｜ 失窃 · 重逢 · 孤独</p>
+</blockquote>
+<hr>
+<h2><span id="最后一公里永不缺席">📦 最后一公里，永不缺席</span></h2><p>现场急着发货]]>
+    </summary>
+    <title>微光拾级-19</title>
+    <updated>2026-07-19T12:06:45.443Z</updated>
+  </entry>
   <entry>
     <author>
       <name>vow</name>
@@ -470,49 +493,5 @@
     </summary>
     <title>微光拾级-05</title>
     <updated>2026-04-27T16:26:20.773Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>vow</name>
-    </author>
-    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
-    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    <content>
-      <![CDATA[<blockquote><p>🕐 2026.03.23 — 2026.03.29 ｜ 实习第三周</p></blockquote><hr><h2><span id="关于工作">💼 关于工作</span></h2><p>一转眼就过去了三周，生活用品基本购置完备，实习生活也逐渐习以为常。</p><p>自我安慰地说：虽然是 996，但压力不大，不算忙碌。公司给报销 Token，基本不怎么需要亲自动手敲代码，轻松完成工作。</p><p><strong>但是——</strong></p><p>前几任留下的<strong>屎山是真的屎</strong>。</p><p>每天都能发现新的屎，一个 BMS 也没多少功能，我感觉啥都没实现，项目直接重构了一半，真是难绷。</p><blockquote><p>不得不感慨，前两年的就业环境是真好啊，什么垃圾都能进公司给我塞屎。</p></blockquote><hr><h2><span id="关于学习">📚 关于学习</span></h2><p>这周开始抽出不少时间学习硬性知识，对<strong>嵌入式的认识</strong>又更近了一步。</p><p>准备在<strong>清明前</strong>出 <strong>《电控学习路线 v1.1》</strong>。</p><hr><h2><span id="关于生活">🍔 关于生活</span></h2><p>虽然杭州这边物价比郑州高多了，但我的神奇妙妙工具依旧发力——</p><p>洗澡的时候感觉<strong>肚子又大了一圈</strong>。</p><p>该考虑减肥了。</p><hr><h2><span id="碎碎念">💭 碎碎念</span></h2><p>到了仅有的周末，不知道做什么，躺床上刷了一天手机。</p><blockquote><p>哎哎，VOW 你怎么这么堕落了…</p></blockquote><hr><p><strong>✨ 第四周：屎山依旧，肚子更大，周末更废。</strong></p><span id="more"></span><h2><span id="本周数据">📊 本周数据</span></h2><table><thead><tr><th>项目</th><th>数据</th></tr></thead><tbody><tr><td>发现的新屎</td><td>∞ 个</td></tr><tr><td>重构进度</td><td>50%</td></tr><tr><td>肚子大小</td><td>↑</td></tr><tr><td>周末生产力</td><td>0%</td></tr><tr><td>学习进度</td><td>《电控学习路线 v1.1》筹备中</td></tr></tbody></table><hr><h2><span id="下周目标">🎯 下周目标</span></h2><ul><li><input disabled type="checkbox"> 继续铲屎（重构项目）</li><li><input disabled type="checkbox"> 完成《电控学习路线 v1.1》</li><li><input disabled type="checkbox"> 考虑减肥方案（认真的吗？）</li><li><input disabled type="checkbox"> 周末别再刷手机了（大概率做不到）</li></ul><hr><p><strong>💡 一句话总结：</strong> 工作在铲屎，学习在进步，身材在膨胀，周末在摆烂。</p>]]>
-    </content>
-    <id>https://vow0328.github.io/2026/03/29/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-04/</id>
-    <link href="https://vow0328.github.io/2026/03/29/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-04/"/>
-    <published>2026-03-29T12:12:59.000Z</published>
-    <summary>
-      <![CDATA[<blockquote>
-<p>🕐 2026.03.23 — 2026.03.29 ｜ 实习第三周</p>
-</blockquote>
-<hr>
-<h2 id="💼-关于工作"><a href="#💼-关于工作" class="headerlink" title="💼 关于工作"></a>💼 关于工作</h2><p>一转眼就过去了三周，生活用品基本购置完备，实习生活也逐渐习以为常。</p>
-<p>自我安慰地说：虽然是 996，但压力不大，不算忙碌。公司给报销 Token，基本不怎么需要亲自动手敲代码，轻松完成工作。</p>
-<p><strong>但是——</strong></p>
-<p>前几任留下的<strong>屎山是真的屎</strong>。</p>
-<p>每天都能发现新的屎，一个 BMS 也没多少功能，我感觉啥都没实现，项目直接重构了一半，真是难绷。</p>
-<blockquote>
-<p>不得不感慨，前两年的就业环境是真好啊，什么垃圾都能进公司给我塞屎。</p>
-</blockquote>
-<hr>
-<h2 id="📚-关于学习"><a href="#📚-关于学习" class="headerlink" title="📚 关于学习"></a>📚 关于学习</h2><p>这周开始抽出不少时间学习硬性知识，对<strong>嵌入式的认识</strong>又更近了一步。</p>
-<p>准备在<strong>清明前</strong>出 <strong>《电控学习路线 v1.1》</strong>。</p>
-<hr>
-<h2 id="🍔-关于生活"><a href="#🍔-关于生活" class="headerlink" title="🍔 关于生活"></a>🍔 关于生活</h2><p>虽然杭州这边物价比郑州高多了，但我的神奇妙妙工具依旧发力——</p>
-<p>洗澡的时候感觉<strong>肚子又大了一圈</strong>。</p>
-<p>该考虑减肥了。</p>
-<hr>
-<h2 id="💭-碎碎念"><a href="#💭-碎碎念" class="headerlink" title="💭 碎碎念"></a>💭 碎碎念</h2><p>到了仅有的周末，不知道做什么，躺床上刷了一天手机。</p>
-<blockquote>
-<p>哎哎，VOW 你怎么这么堕落了…</p>
-</blockquote>
-<hr>
-<p><strong>✨ 第四周：屎山依旧，肚子更大，周末更废。</strong></p>]]>
-    </summary>
-    <title>微光拾级-04</title>
-    <updated>2026-04-27T16:26:02.754Z</updated>
   </entry>
 </feed>
