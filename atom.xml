@@ -10,7 +10,32 @@
   <rights>All rights reserved 2026, vow</rights>
   <subtitle>嵌入式 | Linux | 机器人 | 生活</subtitle>
   <title>微光拾级</title>
-  <updated>2026-08-09T17:14:30.794Z</updated>
+  <updated>2026-08-17T13:58:06.590Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.08.10 — 2026.08.16 ｜ 离职 · 搬家 · 归乡</p></blockquote><hr><h2><span id="解脱">🎉 解脱</span></h2><p>终于到离职这天了。</p><p>任务交接很顺利，没有拖泥带水。唯一的遗憾是下家还没找到，只能先回郑州了——那就当给自己放个假吧。</p><p>从提出离职到真正离开，这两周的等待终于结束了。</p><hr><h2><span id="搬家">📦 搬家</span></h2><p>因为要搬家，收拾东西收拾了整整两天，路上坐车又花了一天。</p><p>这一周基本没能好好休息，累得不轻。下周得好好放松一下了。</p><hr><h2><span id="️-电控学习指南">🛠️ 电控学习指南</span></h2><p>准备把电控学习指南搬到 GitHub 上，方便后续维护。</p><p>不过还没想好具体要改动什么，先慢慢来吧——不着急，反正现在时间多的是。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/08/17/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-23/</id>
+    <link href="https://vow0328.github.io/2026/08/17/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-23/"/>
+    <published>2026-08-17T11:42:21.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.08.10 — 2026.08.16 ｜ 离职 · 搬家 · 归乡</p>
+</blockquote>
+<hr>
+<h2><span id="解脱">🎉 解脱</span></h2>
+<p>终于到离职这天了。</p>
+<p>任务交]]>
+    </summary>
+    <title>微光拾级-23</title>
+    <updated>2026-08-17T13:58:06.590Z</updated>
+  </entry>
   <entry>
     <author>
       <name>vow</name>
@@ -475,30 +500,5 @@
     </summary>
     <title>微光拾级-09</title>
     <updated>2026-05-03T18:28:38.687Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>vow</name>
-    </author>
-    <category term="面经分享" scheme="https://vow0328.github.io/categories/%E9%9D%A2%E7%BB%8F%E5%88%86%E4%BA%AB/"/>
-    <category term="面经" scheme="https://vow0328.github.io/tags/%E9%9D%A2%E7%BB%8F/"/>
-    <content>
-      <![CDATA[<blockquote><p><strong>🎯 面试岗位：</strong> 电控开发助理工程师-软件-小家电</p></blockquote><p>说实话，提笔写这篇面经的时候，我都在深深怀疑它的必要性。</p><p>为了这场面试，我认认真真准备了一个多小时，结果点进去一看——<strong>15道 MBTI 性格测试选择题，然后，就结束了。</strong></p><blockquote><p>不是，哥们？美的你在搞什么？<br>现在的 AI 面试都是这么面的吗？</p></blockquote><span id="more"></span><hr><h2><span id="被虚晃一枪的开局">🤡 被“虚晃一枪”的开局</span></h2><p>最离谱的是它的<strong>开始界面</strong>。</p><p>系统煞有介事地弹出版面提示：<strong>“本次面试包含开放性问题，其中一道需用英语作答。”</strong></p><p>我当时心里“咯噔”一下，给我这个英语白痴当场就被唬住了。甚至连英文版自我介绍和专业词汇都在脑子里疯狂打草稿，做好了要和 AI 考官大战三百回合的准备。</p><p>结果翻到下一页，画风突变，直接给我弹出了纯纯的 MBTI 性格测试题……</p><p>看到题目的那一瞬间，我是真没绷住。</p><hr><h2><span id="吐槽与总结">💬 吐槽与总结</span></h2><p>整个“面试”过程的核心就是：<strong>选完 15 道性格测试题，光速下播。</strong></p><p>我不知道这个所谓的“AI 面试”是不是不同岗位的题库不一样，反正针对我投递的这个小家电软件岗位，这波操作属实是把我干沉默了。</p><blockquote><p><strong>📝 面试总结：</strong><br>准备一小时，答题两分钟。<br>英语没用上，MBTI 测挺准。<br>只能说，美的，真有你的。</p></blockquote>]]>
-    </content>
-    <id>https://vow0328.github.io/2026/05/01/%E7%BE%8E%E7%9A%84-AI%E9%9D%A2%E9%9D%A2%E7%BB%8F/</id>
-    <link href="https://vow0328.github.io/2026/05/01/%E7%BE%8E%E7%9A%84-AI%E9%9D%A2%E9%9D%A2%E7%BB%8F/"/>
-    <published>2026-05-01T09:24:40.000Z</published>
-    <summary>
-      <![CDATA[<blockquote>
-<p><strong>🎯 面试岗位：</strong> 电控开发助理工程师-软件-小家电</p>
-</blockquote>
-<p>说实话，提笔写这篇面经的时候，我都在深深怀疑它的必要性。</p>
-<p>为了这场面试，我认认真真准备了一个多小时，结果点进去一看——<strong>15道 MBTI 性格测试选择题，然后，就结束了。</strong></p>
-<blockquote>
-<p>不是，哥们？美的你在搞什么？<br>现在的 AI 面试都是这么面的吗？</p>
-</blockquote>]]>
-    </summary>
-    <title>美的-AI面面经</title>
-    <updated>2026-05-01T09:40:48.164Z</updated>
   </entry>
 </feed>
