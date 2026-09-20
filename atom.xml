@@ -10,7 +10,30 @@
   <rights>All rights reserved 2026, vow</rights>
   <subtitle>嵌入式 | Linux | 生活</subtitle>
   <title>微光拾级</title>
-  <updated>2026-09-13T11:32:56.296Z</updated>
+  <updated>2026-09-20T14:57:02.978Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.09.14 — 2026.09.20 ｜ 第二周 · 状态机 · 同人展</p></blockquote><hr><h2><span id="第二周">⏳ 第二周</span></h2><p>工作进入第二周，生活总算稳住了——嗯，”总算”，不是”彻底”。</p><p>因为头顶那把刀还悬着呢：考核没结束。</p><p>入职的时候说好两周，如今两周走完了，任务还在一天一个地往外冒，跟打地鼠似的，敲下去一个，冒上来俩。最新这项连教程都没有，只能硬着头皮自己摸。更刺激的是——两天，就得搓一个功能出来。</p><p>而且不能用 Codex，不能用 Claude，等于补给线被人掐了。</p><p>唉，头疼。(´･_･&#96;)</p><hr><h2><span id="状态迁移引擎">🧩 状态迁移引擎</span></h2><p>这周的学习内容嘛，说来说去也只有考核任务。</p><p>手上的东西是个状态迁移引擎，维护了二十年——一台超级大的状态机。每个界面都自带一整套装备：执行前处理函数、执行后处理函数、可执行动作，还有和动作一一对应的下一个状态表索引。上头再压一个全局状态栈，负责保存和回退状态。</p><p>于是考核的时候，眼睛盯着代码，脑子里还得同步对账：”执行到这个函数的时候，状态表里到底是哪一行？”</p><p>一只眼睛看路，一只眼睛查字典。</p><p>不够用啊。(＠_＠;)</p><hr><h2><span id="️-画面表示">🖼️ 画面表示</span></h2><p>后面还压着一块画面显示呢。</p><p>工程里要把图像打印出来。可嵌入式没有前端那一套框架呀，所以”打印图像”这件事，一百个人能有一百种写法。我们公司为了可维护性，干脆把一个界面的图像显示拆成了三段：</p><ul><li><strong>action</strong> —— 接住上头那台状态机</li><li><strong>design</strong> —— 存图像的基础属性</li><li><strong>screen</strong> —— 把前两者串起来，再接上系统的画面显示功能</li></ul><p>听着挺清爽吧？(￣▽￣”) 可难的根本不是结构——整个模块没有教程啊，只能靠悟，或者请教导师。跟看无字天书差不多。( ˘•ω•˘ )</p><p>到现在，这个考核我还没做完。orz</p><p>也是头一次觉得，自己的学习能力好像没想象中那么强。</p><hr><h2><span id="最近">🌱 最近</span></h2><p>生活上已经稳下来啦，剩下的唯一悬念就是个：考核能不能平安度过。</p><p>希望人没事吧。(｡･ω･｡)</p><p>还有，决定下周中秋去一趟崩坏三的十周年同人展，练练胆子，治治社恐。(๑•̀ㅂ•́)و✧</p><p>希望一切安好吧。(´▽｀)</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/09/20/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-26/</id>
+    <link href="https://vow0328.github.io/2026/09/20/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-26/"/>
+    <published>2026-09-20T14:19:15.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.09.14 — 2026.09.20 ｜ 第二周 · 状态机 · 同人展</p>
+</blockquote>
+<hr>
+<h2><span id="第二周">⏳ 第二周</span></h2><p>工作进入第二周，生活总算稳住了——]]>
+    </summary>
+    <title>微光拾级-26</title>
+    <updated>2026-09-20T14:57:02.978Z</updated>
+  </entry>
   <entry>
     <author>
       <name>vow</name>
@@ -475,29 +498,5 @@
     </summary>
     <title>选择嵌入式实验室前，你应该先知道的事</title>
     <updated>2026-05-26T14:37:38.309Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>vow</name>
-    </author>
-    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
-    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    <content>
-      <![CDATA[<blockquote><p>🕐 2026.05.18 — 2026.05.24 ｜ 实习第十一周</p></blockquote><hr><h2><span id="关于社交">💈 关于社交</span></h2><p>社交能力 UP UP！</p><p>随便找了一家理发店，结果店员疯狂推销会员卡，我也是用尽浑身解数把她给推脱掉了。</p><p>对于我这样的社恐来说，这真的不容易。</p><p>不过也算是一次实战演练，社交能力 +1。</p><hr><h2><span id="关于工作">🐛 关于工作</span></h2><p>这周遇到了一个很狗屎的 Bug，一直解决不了，已经开始怀疑是硬件问题了。</p><p>哎哎，慢慢改吧。</p><blockquote><p>混一天是一天，生活就是一场又一场的寸步难行。</p></blockquote><hr><h2><span id="关于学校">🎓 关于学校</span></h2><p>学校有个答辩原本要求本人到场，请朋友帮我代去了。</p><p>这种事情如果是两个月前的我，一定会倍感煎熬，但对如今的我来说，完全可以接受了。</p><p>也是一种成长吧。</p><hr><h2><span id="关于家人">👨‍👩‍👦 关于家人</span></h2><p>这周用实习挣的钱给老妈买了新包。</p><p>但忘记老爸的生日了。</p><blockquote><p>记性还是不够好，距离成为人类还是有段距离。</p></blockquote><hr><h2><span id="关于学习">📖 关于学习</span></h2><p>上班的时候让 AI 进行模拟面试，好多基础知识问题都没答出来。</p><p>我还是好菜啊。</p><p>之前投递的简历也没有回信，生活好难，但又不得不前行。</p><hr><p><strong>✨ 第十一周：每一件事都有点难，但每一件事也都过去了。</strong></p>]]>
-    </content>
-    <id>https://vow0328.github.io/2026/05/24/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-12/</id>
-    <link href="https://vow0328.github.io/2026/05/24/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-12/"/>
-    <published>2026-05-24T09:11:42.000Z</published>
-    <summary>
-      <![CDATA[<blockquote>
-<p>🕐 2026.05.18 — 2026.05.24 ｜ 实习第十一周</p>
-</blockquote>
-<hr>
-<h2><span id="关于社交">💈 关于社交</span></h2><p>社交能力 UP UP！</p>
-<p>随便找了]]>
-    </summary>
-    <title>微光拾级-12</title>
-    <updated>2026-05-24T16:12:25.984Z</updated>
   </entry>
 </feed>
