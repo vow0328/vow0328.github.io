@@ -10,7 +10,30 @@
   <rights>All rights reserved 2026, vow</rights>
   <subtitle>嵌入式 | Linux | 生活</subtitle>
   <title>微光拾级</title>
-  <updated>2026-10-18T14:09:31.541Z</updated>
+  <updated>2026-10-25T14:28:30.685Z</updated>
+  <entry>
+    <author>
+      <name>vow</name>
+    </author>
+    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
+    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    <content>
+      <![CDATA[<blockquote><p>🕐 2026.10.19 — 2026.10.25 ｜ 培训 · 小幸运 · 模板</p></blockquote><hr><h2><span id="培训">💤 培训</span></h2><p>依旧是碌碌无为的一周。没有安排业务任务，只有枯燥的培训。</p><p>每天按点坐到工位，听课、看资料、等下班，日子像被复制粘贴过一样。说不上累，可一天下来回头想想，又说不清自己到底干了什么。</p><p>所幸的是，从目前的任务安排来看，快到正式接触项目任务了。再熬一熬，应该就能摸到点真东西。</p><p>哎哎，无所谓了，混一天是一天吧。</p><hr><h2><span id="小幸运">🎁 小幸运</span></h2><p>不过这周也有点小幸运——抢到了崩铁的福袋。手速这种事平时轮不到我，这次居然中了。</p><p>周末又赶上部门团建。虽然感觉一年好像就这么一次，但总归是出门透了口气。</p><p>一点小幸运，也够把这一周填得没那么空了。</p><hr><h2><span id="通用模板">🧩 通用模板</span></h2><p>学习计划意外地推动不下去了。躺床上，啥也不想动，书翻开了又合上。</p><p>不过至少还是写了些代码。用在公司学到的知识，加上自己的理解，我准备写一个状态迁移引擎的通用模板，目前还在微调阶段。</p><p>麻烦的是，写的时候还得时刻注意不能泄露公司机密。哪些能写、哪些只能烂在肚子里，每敲一行都得掂量一下。</p><p>唉，好麻烦。一步一步来吧。</p>]]>
+    </content>
+    <id>https://vow0328.github.io/2026/10/25/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-31/</id>
+    <link href="https://vow0328.github.io/2026/10/25/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-31/"/>
+    <published>2026-10-25T13:52:41.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>🕐 2026.10.19 — 2026.10.25 ｜ 培训 · 小幸运 · 模板</p>
+</blockquote>
+<hr>
+<h2><span id="培训">💤 培训</span></h2><p>依旧是碌碌无为的一周。没有安排业务任务，]]>
+    </summary>
+    <title>微光拾级-31</title>
+    <updated>2026-10-25T14:28:30.685Z</updated>
+  </entry>
   <entry>
     <author>
       <name>vow</name>
@@ -461,28 +484,5 @@
     </summary>
     <title>微光拾级-15</title>
     <updated>2026-06-14T15:47:03.927Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>vow</name>
-    </author>
-    <category term="微光拾级" scheme="https://vow0328.github.io/categories/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7/"/>
-    <category term="生活" scheme="https://vow0328.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    <category term="随想" scheme="https://vow0328.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
-    <content>
-      <![CDATA[<blockquote><p>🕐 2026.06.01 — 2026.06.07 ｜ 实习第十三周</p></blockquote><hr><h2><span id="查出-11-个异常的体检单">🏥 查出 11 个异常的体检单</span></h2><p>“不体检没病，一体检全是病”，这句话真的是真理。</p><p>上周的体检报告出来了，直接查出来 <strong>11 个异常项</strong>。所幸都没有什么大碍，大多只是一些指标上的轻微异常。</p><p>解决方案总结下来也就两个字：<strong>减肥</strong>。</p><p>不过节食计划早就开始了。至于运动，衡量了一下目前的精力和体力消耗，觉得现阶段加上运动还“不太划算”，那就先从管住嘴开始吧。</p><hr><h2><span id="遥远的-linux-目标">💻 遥远的 Linux 目标</span></h2><p>目前的学习进度还算可以，一直都在按部就班地稳定推进中。</p><p>但不得不承认，距离真正掌握 Linux 应用开发，甚至凭此去<strong>找一份嵌入式 Linux 的工作</strong>，中间还隔着好长一段距离。目前的水平似乎还够不到那个门槛，此程依然遥远。</p><p>不过再遥远的目标，拼尽全力也会继续往前走。</p><hr><h2><span id="开始报-bug-的现场测试">🐛 开始报 Bug 的现场测试</span></h2><p>公司这边的项目已经完成得差不多了，目前正式投入了现场测试。</p><p>果不其然，一到现场就反馈回来了一大堆问题，看着那一排排的反馈记录，只觉得好麻烦。不过稍微排查了一下发现——</p><p><strong>这些 Bug 基本都不是我的锅。</strong></p><p>嘻嘻，打工人的快乐有时候就是这么朴实无华。只要不是我写的代码出的错，那一切都好说。</p><hr><p>这周还把新的简历彻底改完了，准备这几天投出去试试水。</p><p>其实心里也没底，不知道以现在的水平能不能在市场上找到合适的下家。但好在目前手里还留着后手，进退都有余地，所以心里一点都不慌。</p><p>不管是体检单上那一堆需要消灭的异常项，还是遥不可及的 Linux 门槛，亦或是未知的下一份工作。手里有底牌，心里就不慌，那就一件一件慢慢解决吧。</p>]]>
-    </content>
-    <id>https://vow0328.github.io/2026/06/07/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-14/</id>
-    <link href="https://vow0328.github.io/2026/06/07/%E5%BE%AE%E5%85%89%E6%8B%BE%E7%BA%A7-14/"/>
-    <published>2026-06-07T12:42:46.000Z</published>
-    <summary>
-      <![CDATA[<blockquote>
-<p>🕐 2026.06.01 — 2026.06.07 ｜ 实习第十三周</p>
-</blockquote>
-<hr>
-<h2><span id="查出-11-个异常的体检单">🏥 查出 11 个异常的体检单</span></h2><p>“不体检没]]>
-    </summary>
-    <title>微光拾级-14</title>
-    <updated>2026-06-07T15:56:34.674Z</updated>
   </entry>
 </feed>
